@@ -1,0 +1,10 @@
+The datasets used to train the model
+
+• ESOL, Delaney [2004] a set consisting of 1128 molecules for the prediction of water
+solubility. Graphs in this dataset range between (2 - 55) nodes.
+• FreeSolv, Mobley and Guthrie [2014] contains both experimental and calcu-
+lated hydration free energies of small neutral molecules in water. The set used
+was comprised of 639 molecules represented as graphs ranging between (2 - 24) nodes.
+• Lipophilicity, Wu et al. [2017] The set contains 4200 molecules. It measures the
+hydrophobicity, i.e., lipophilicity, which is the dissolvability of substance in non-polar
+solvents. The graphs in this set range between (7 - 115) nodes.
