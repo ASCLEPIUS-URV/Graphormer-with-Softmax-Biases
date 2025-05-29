@@ -1,4 +1,4 @@
-# GCN-PyTorch
+# GCN and GAT PyTorch Implementation
 
 A Graph Convolutional Network (GCN) implementation in PyTorch for molecular property prediction.
 
