@@ -15,7 +15,7 @@ A Graph Convolutional Network (GCN) implementation in PyTorch for molecular prop
 1. Clone the repository:
 ```bash
 git clone https://github.com/ASCLEPIUS-URV/Graphormer-with-Softmax-Biases.git
-cd GCN-PyTorch
+cd Graphormer-with-Softmax-Biases
 ```
 
 2. Install dependencies:
