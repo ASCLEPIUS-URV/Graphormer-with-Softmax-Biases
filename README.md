@@ -1,10 +1,10 @@
-# GCN and GAT PyTorch Implementation
+# Modified Graphormer + GCN and GAT PyTorch Implementation
 
 A Graph Convolutional Network (GCN) implementation in PyTorch for molecular property prediction.
 
 ## Features
-
-- Multi-layer GCN architecture
+- Graphormer with Softmax Biases
+- Multi-layer GCN and GAT architecture
 - Support for both CPU and GPU training
 - Automatic checkpointing and training resume
 - Graph-level property prediction
@@ -25,7 +25,7 @@ pip install -r requirements.txt
 
 ## Usage
 
-### Training
+### Training to replicate GCN/GAT results
 
 Basic training:
 ```bash
@@ -69,6 +69,7 @@ python train.py path/to/your/data.json --resume checkpoints/checkpoint_epoch_X.p
 
 ## Data Format
 
+For the GCN/GAT models converted data is in Datasets_pt.
 The input data should be a JSON file containing a list of graph dictionaries. Each graph dictionary should have the following format:
 JSONL files of a similar structure can be converted using convert_dataset.py
 
